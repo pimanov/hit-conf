@@ -1,0 +1,193 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    color: black;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+}
+.body 
+{ 
+	font-family: arial,helvetica,clean,sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+a 
+{
+  color: #32a81e;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4 
+{
+	color: #333;
+	padding: 15px 0 5px 0;
+	border-bottom: 1px solid #aaa;
+    font-weight: normal;
+}
+
+img 
+{ 
+	border: none; 
+}
+
+pre 
+{
+    padding: 10px 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: #272727;
+    font-size: 80%;
+}
+
+/* Header */
+#header 
+{
+    
+}
+
+#header img 
+{
+	padding: 10px;
+}
+
+#header .blurb 
+{
+    vertical-align: bottom;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 2em;
+	font-size: 11pt;
+	padding-bottom: 15px;
+}
+
+.header 
+{
+	width: 100%; 
+}
+.logo 
+{ 
+	vertical-align: center;
+	width: 220px;
+}
+.logo img
+{
+	width: 200px;
+}
+.text-logo
+{
+	text-align: left;
+	vertical-align: center;
+}	
+.one-text-logo
+{
+	padding: 1px;
+	font-size: 16pt;
+	letter-spacing: 2px;
+	font-weight: bold;
+	line-height: 1.0;
+}
+.text-color
+{
+	color: #32A81E;
+	margin-right: 2px;
+}
+
+/* Breadcrumbs */
+#location 
+{
+    padding: 5px 15px;
+    background-color: #747473;
+    color: #ddd;
+}
+
+#location a 
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#location .selected, #location strong 
+{
+    color: #49b237;
+}
+
+/* Column separator */
+#container 
+{
+    background: #fff url(col.gif) repeat-y 140px 0;
+}
+
+/* Sidebar */
+#sidebar 
+{
+    float: left;
+    width: 121px;
+    padding: 20px 0 20px 30px;
+}
+#sidebar strong 
+{
+    color: #505050;
+    font-weight: normal;
+}
+#sidebar, #sidebar a 
+{
+    color: #6a6a6a;
+}
+
+#sidebar a:hover 
+{
+    color: #000; text-decoration: underline;
+}
+
+#sidebar h1,h2,h3,h4 
+{
+    margin: 0;
+}
+
+#sidebar li 
+{
+	list-style-type: circle;
+}
+
+#sidebar li.selected a 
+{
+    color: #fff;
+}
+
+#sidebar ul 
+{
+    padding: 0px;
+}
+
+/* Content */
+#main 
+{
+    margin-left: 141px;
+    padding: 5px 32px 15px 32px;
+    color: black;
+}
+
+#main a 
+{
+    color: #217214;
+}
+
+#main .login 
+{
+    float: right;
+    font-size: 80%;
+}
+
+/* Footer */
+#footer 
+{
+    font-size: 80%;
+    text-align: center;
+}
+
+.cite 
+{ 
+	font-size: smaller; 
+}
