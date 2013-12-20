@@ -132,7 +132,7 @@ pre
 /* Column separator */
 #container 
 {
-    background: #fff url(col.gif) repeat-y 140px 0;
+    background: #fff; /*url(col.gif) repeat-y 140px 0;*/
 }
 
 /* Sidebar */
