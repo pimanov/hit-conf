@@ -13,6 +13,11 @@ body
   line-height: 1.5em;
 }
 
+strong
+{
+  color: #663300;
+}
+
 .tab
 {
   text-indent: 25px;
