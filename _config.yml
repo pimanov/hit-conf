@@ -1,4 +1,4 @@
 pygments: true
 permalink: none
 baseurl: /
-exclude: [README.md, send.sh]
+exclude: [README.md, *.sh]
