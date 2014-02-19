@@ -1,4 +1,4 @@
 pygments: true
 permalink: none
 baseurl: /
-exclude: [README.md, *.sh]
+exclude: [README.md, *.sh, Abstracts ]
