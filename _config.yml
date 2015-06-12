@@ -1,4 +1,5 @@
 pygments: true
 permalink: none
 baseurl: /
-exclude: [README.md, *.sh, Abstracts ]
+exclude: [ README.md, gen.sh, send.sh, send_copy.sh, Abstracts ]
+encoding: utf-8
