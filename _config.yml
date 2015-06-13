@@ -1,4 +1,4 @@
-pygments: true
+highlighter: pygments
 permalink: none
 baseurl: /
 exclude: [ README.md, gen.sh, send.sh, send_copy.sh, Abstracts, books, Gemfile, Gemfile.lock ]
