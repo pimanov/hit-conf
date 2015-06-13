@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm -r _site
+ 
 jekyll build
 
 for file in _site/*.html
@@ -14,6 +16,6 @@ do
     mv tim $file
 done
 
-#scp -P 23 -r _site/* pimanov@users.imec.msu.ru:/home/pimanov/hit-conf/www/
+scp -P 23 -r _site/* pimanov@users.imec.msu.ru:/home/pimanov/hit-conf/www/2016/
 
 #rm -rf _site
