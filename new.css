@@ -15,7 +15,7 @@ body
 
 strong
 {
-  color: #663300;
+  color: #FF0033;
 }
 
 .tab
@@ -25,7 +25,17 @@ strong
 
 a 
 {
-  color: #32a81e;
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+}
+
+#contact:hover
+{
   text-decoration: none;
 }
 
@@ -106,14 +116,14 @@ pre
 }
 .text-color
 {
-	color: #32A81E;
+	color: #3300FF;
 	margin-right: 2px;
 }
 
 /* Breadcrumbs */
 #location 
 {
-    padding: 5px 15px;
+    padding: 4px 15px;
     background-color: #747473;
     color: #ddd;
 }
@@ -184,12 +194,17 @@ pre
     padding: 5px 32px 15px 32px;
     color: black;
 }
-
+/*
 #main a 
 {
-    color: #217214;
+    color: #CC3333;
 }
 
+#main a:hover
+{
+    text-decoration: underline;
+}
+*/
 #main .login 
 {
     float: right;
